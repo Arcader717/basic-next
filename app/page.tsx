@@ -7,7 +7,7 @@ const Page = () => {
   return (
     <h1>Hello, Next.js!</h1>
     <a href="/callback">Callback page</a>
-  )
+  );
 }
 
 export default Page;
