@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const Page: React.FC = () => {
   return (
     <div>
-      <h1 className={styles.home}">Hello, Next.js!</h1>
+      <h1 className={styles.home}>Hello, Next.js!</h1>
       <Link href="/callback">
         <a>Callback page</a>
       </Link>
