@@ -16,6 +16,7 @@ const Page: React.FC = () => {
                 <a className={`${styles.active} ${styles.navLink}`}>Home</a>
             </Link>
         </div>
+    </div>
     <h1 className={styles.home}>Chronic</h1>
     <Link href="/callback">
         <a>Callback page</a>
