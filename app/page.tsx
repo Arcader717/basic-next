@@ -33,7 +33,7 @@ const Page: React.FC = () => {
                     <NavLink text="News" href="/#news" active={false} />
                     <NavLink text="Contact" href="/#contact" active={false} />
                     <NavLink text="About" href="/#about" active={false} />
-                    <button className={style.disBtn}>
+                    <button className={styles.disBtn}>
                         <NavLink text="Login with Discord" href="/login" active={false} />
                     </button>
                 </div>
