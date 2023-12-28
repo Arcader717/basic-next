@@ -1,5 +1,11 @@
+import type Metadata from 'next';
 import Link from 'next/link';
 import './global.css';
+
+export const metadata: Metadata = {
+    title: "Basic",
+    description: "A basic Next.js app"
+}
 
 const Page: React.FC = () => {
   return (
