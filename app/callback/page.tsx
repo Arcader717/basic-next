@@ -1,8 +1,14 @@
 import Link from 'next/link'
 
-export default function Page() {
+const Page = () => {
   return (
-    <h1>This is the callback page</h1>
-    <Link href="/">Go home!</Link>
+    <div>
+      <h1>This is the callback page</h1>
+      <Link href="/">
+        <a>Go home!</a>
+      </Link>
+    </div>
   )
 }
+
+export default Page;
