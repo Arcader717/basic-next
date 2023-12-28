@@ -1,11 +1,17 @@
 'use client'
 
-import Link from 'next/link'
-import './global.css'
+import Link from 'next/link';
+import './global.css';
 
-export default function Page() {
+const Page: React.FC = () => {
   return (
-    <h1>Hello, Next.js!</h1>
-    <Link href="/callback"><a>Callback page</a></Link>
+    <div>
+      <h1>Hello, Next.js!</h1>
+      <Link href="/callback">
+        <a>Callback page</a>
+      </Link>
+    </div>
   );
 };
+
+export default Page;
