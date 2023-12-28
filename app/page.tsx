@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 function NavLink({ text, href, active }) {
     if (active === true) {
         return (
-            <Link href={href}>
+            <Link href={href} style={{ textDecoration: 'none' }}>
                 <a className={`${styles.active} ${styles.navLink}`}>{text}</a>
             </Link>
         );
