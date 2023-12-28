@@ -13,7 +13,7 @@ export const metadata: Metadata = {
         siteName: "Chronic",
         images: [
             {
-                url: "https://www.chronicbot.xyz/api/og.png",
+                url: "https://www.chronicbot.xyz/api/og",
                 width: 800,
                 height: 400,
             }
