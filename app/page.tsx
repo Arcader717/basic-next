@@ -9,13 +9,12 @@ export const metadata: Metadata = {
 }
 
 const Page: React.FC = () => {
-  return (
-    <div>
-      <h1 className={styles.home}>Hello, Next.js!</h1>
-      <Link href="/callback">
+  return ( 
+    <div className={styles.nav}>
+    <h1 className={styles.home}>Chronic</h1>
+    <Link href="/callback">
         <a>Callback page</a>
-      </Link>
-    </div>
+    </Link>
   );
 };
 
