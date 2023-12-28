@@ -24,12 +24,12 @@
   text-decoration: none;
 }
 
-#nav-name {
+.nav-name {
   width: 50%;
   padding-left: 10px;
 }
 
-#home {
+.home {
   color: black;
   text-align: center;
   margin-top: 250px;
@@ -52,7 +52,7 @@
   background-color: white;
 }
 
-#selling-point {
+.selling-point {
   background-color: #333;
   font-size: 20px;
   color: lightgray;
@@ -65,34 +65,34 @@
   text-align: center;
 }
 
-#about {
+.about {
     margin-top: 25px;
     text-align: center;
     transition: 0.5s;
     text-decoration: none;
 }
 
-#about-txt {
+.about-txt {
     text-decoration: none;
 }
 
-#mod-list {
+.mod-list {
     list-style-type: none;
     margin: 0;
     padding: 0;
     font-size: 25px;
 }
 
-#about-title {
+.about-title {
     font-size: 40px;
 }
 
-#web-ad {
+.web-ad {
     font-size: 30px;
     margin: 0;
 }
 
-#mod-ad {
+.mod-ad {
     font-size: 25px
 }
 
