@@ -1,5 +1,5 @@
 import './global.css';
-import './index.module.css';
+import styles from './index.module.css';
 
 export default function RootLayout({
     children,
@@ -8,7 +8,7 @@ export default function RootLayout({
   }) {
     return (
       <html lang="en">
-        <body className="body">{children}</body>
+        <body className={styles.body}>{children}</body>
       </html>
     )
   }
