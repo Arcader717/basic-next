@@ -10,17 +10,19 @@ export const metadata: Metadata = {
 
 const Page: React.FC = () => {
   return ( 
-    <div className={styles.nav}>
-        <div className={styles.navLinks}>
-            <Link href="/">
-                <a className={`${styles.active} ${styles.navLink}`}>Home</a>
-            </Link>
+    <div>
+        <div className={styles.nav}>
+            <div className={styles.navLinks}>
+                <Link href="/">
+                    <a className={`${styles.active} ${styles.navLink}`}>Home</a>
+                </Link>
+            </div>
         </div>
+        <h1 className={styles.home}>Chronic</h1>
+        <Link href="/callback">
+            <a>Callback page</a>
+        </Link>
     </div>
-    <h1 className={styles.home}>Chronic</h1>
-    <Link href="/callback">
-        <a>Callback page</a>
-    </Link>
   );
 };
 
