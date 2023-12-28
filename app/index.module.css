@@ -1,0 +1,109 @@
+body {
+  background-color: lightgrey;
+  font-family: Sans;
+}
+
+.nav {
+  background-color: #333;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.nav-links{
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.nav-link {
+  padding: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+#nav-name {
+  width: 50%;
+  padding-left: 10px;
+}
+
+#home {
+  color: black;
+  text-align: center;
+  margin-top: 250px;
+  margin-bottom: 240px;
+  font-size: 100px
+}
+
+.disBtn {
+  background-color: rgba(88, 101, 242, 1);
+  border: none;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+  transition-duration: 0.4s;
+  text-decoration: none;
+}
+
+.disBtn:hover {
+  color: rgba(88, 101, 242, 1);
+  background-color: white;
+}
+
+#selling-point {
+  background-color: #333;
+  font-size: 20px;
+  color: lightgray;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding-left: 18px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+#about {
+    margin-top: 25px;
+    text-align: center;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+#about-txt {
+    text-decoration: none;
+}
+
+#mod-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+
+#about-title {
+    font-size: 40px;
+}
+
+#web-ad {
+    font-size: 30px;
+    margin: 0;
+}
+
+#mod-ad {
+    font-size: 25px
+}
+
+.accordion {
+    cursor: pointer;
+    padding: 18px;
+    transition: 0.4s;
+}
+
+.panel {
+    display: none;
+    overflow: hidden;
+}
+
