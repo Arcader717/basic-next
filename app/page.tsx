@@ -6,7 +6,7 @@ import './global.css'
 const Page = () => {
   return (
     <h1>Hello, Next.js!</h1>
-    <a href="/callback">Callback page</a>
+    <Link href="/callback">Callback page</Link>
   );
 }
 
