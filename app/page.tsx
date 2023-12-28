@@ -4,8 +4,8 @@ import './global.css';
 import styles from './index.module.css';
 
 export const metadata: Metadata = {
-    title: "Basic",
-    description: "A basic Next.js app",
+    title: "Chronic",
+    description: "A W.I.P. dashboard for my discord bot, Chronic",
     openGraph: {
         title: "Chronic",
         description: "A W.I.P. dashboard for my discord bot, Chronic",
@@ -54,9 +54,6 @@ const Page: React.FC = () => {
                 </div>
             </div>
             <h1 className={styles.home}>Chronic</h1>
-            <Link href="/callback">
-                <a>Callback page</a>
-            </Link>
         </>
     );
 };
