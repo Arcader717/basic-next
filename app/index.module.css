@@ -11,20 +11,20 @@
   right: 0px;
 }
 
-.nav-links{
+.navLinks{
   padding-top: 10px;
   padding-bottom: 10px;
   padding-right: 10px;
   text-align: right;
 }
 
-.nav-link {
+.navLink {
   padding: 5px;
   color: white;
   text-decoration: none;
 }
 
-.nav-name {
+.navName {
   width: 50%;
   padding-left: 10px;
 }
@@ -52,7 +52,7 @@
   background-color: white;
 }
 
-.selling-point {
+.point {
   background-color: #333;
   font-size: 20px;
   color: lightgray;
@@ -72,27 +72,27 @@
     text-decoration: none;
 }
 
-.about-txt {
+.aboutTxt {
     text-decoration: none;
 }
 
-.mod-list {
+.modList {
     list-style-type: none;
     margin: 0;
     padding: 0;
     font-size: 25px;
 }
 
-.about-title {
+.aboutTitle {
     font-size: 40px;
 }
 
-.web-ad {
+.web {
     font-size: 30px;
     margin: 0;
 }
 
-.mod-ad {
+.mod {
     font-size: 25px
 }
 
