@@ -5,7 +5,22 @@ import styles from './index.module.css';
 
 export const metadata: Metadata = {
     title: "Basic",
-    description: "A basic Next.js app"
+    description: "A basic Next.js app",
+    openGraph: {
+        title: "Chronic",
+        description: "A W.I.P. dashboard for my discord bot, Chronic",
+        url: "https://www.chronicbot.xyz",
+        siteName: "Chronic",
+        images: [
+            {
+                url: "https://www.chronicbot.xyz/api/og.png",
+                width: 800,
+                height: 400,
+            }
+        ],
+        locale: "en_US",
+        type: "website"
+    },
 }
 
 function NavLink({ text, href, active }) {
