@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import './global.css';
-import './index.module.css';
+import styles from './index.module.css';
 
 export const metadata: Metadata = {
     title: "Basic",
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 const Page: React.FC = () => {
   return (
     <div>
-      <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1>
+      <h1 className={styles.home}">Hello, Next.js!</h1>
       <Link href="/callback">
         <a>Callback page</a>
       </Link>
