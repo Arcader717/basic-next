@@ -26,7 +26,7 @@ function NavLink({ text, href, active }) {
 
 const Page: React.FC = () => {
     return ( 
-        <div>
+        <>
             <div className={styles.nav}>
                 <div className={styles.navLinks}>
                     <NavLink text="Home" href="/" active={true} />
@@ -42,7 +42,7 @@ const Page: React.FC = () => {
             <Link href="/callback">
                 <a>Callback page</a>
             </Link>
-        </div>
+        </>
     );
 };
 
