@@ -20,7 +20,7 @@ export default function Page() {
       <p>If it changes click the button below the word you put in</p>
       <br/><br/><br/>
       <h3>{code}</h3>
-      <button onclick="console.log('Testing vercel runtime logs');">Test logs</button>
+      <button onClick="console.log('Testing vercel runtime logs');">Test logs</button>
     </>
   );
 };
