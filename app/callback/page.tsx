@@ -2,6 +2,9 @@
 
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
+import { cookies } from 
+
+function 
 
 export default function Page() {
   const p = useSearchParams();
@@ -16,8 +19,10 @@ export default function Page() {
       <p>Currently used to get the search params</p>
       <br/><br/><br/>
       <p>Add '?code=' and then whatever you want then reload to get it to show below</p>
+      <p>If it changes click the button below the word you put in</p>
       <br/><br/><br/>
       <h3>{code}</h3>
+      <
     </>
   );
 };
