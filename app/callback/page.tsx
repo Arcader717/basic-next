@@ -19,6 +19,6 @@ const Page = () => {
       <br/><br/><br/>
       <h3>{code}</h3>
     </div>
-
+  )
 
 export default Page;
