@@ -5,9 +5,9 @@ import Link from 'next/link';
 
 export default function Page() {
   const p = useSearchParams();
-  let code = "Nothing :("
+  let code = "Nothing :(";
   if (p.has("code")) {
-    let code = p.get("code")
+    let code = p.get("code");
   };
   return (
     <>
@@ -18,5 +18,5 @@ export default function Page() {
       <br/><br/><br/>
       <h3>{code}</h3>
     </>
-  )
-}
+  );
+};
