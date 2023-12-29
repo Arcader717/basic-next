@@ -5,11 +5,10 @@ import Link from 'next/link';
 
 export default function Page() {
   const p = useSearchParams();
+  let code = "Nothing :("
   if (p.has("code")) {
-    const code = p.get("code")
-  } else {
-    const code = p.get("Nothing :(")
-  }
+    let code = p.get("code")
+  };
   return (
     <>
       <h1>This is the callback page</h1>
