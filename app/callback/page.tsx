@@ -3,7 +3,7 @@
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 
-const Page = () => {
+export default const Page = () => {
   const p = useSearchParams();
   if (p.has("code")) {
     const code = p.get("code")
@@ -20,5 +20,3 @@ const Page = () => {
       <h3>{code}</h3>
     </div>
   )
-
-export default Page;
