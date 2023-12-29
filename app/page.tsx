@@ -10,7 +10,7 @@ export const metadata: Metadata = {
         title: "Chronic",
         description: "A W.I.P. dashboard for my discord bot, Chronic",
         url: "https://www.chronicbot.xyz",
-        keywords: ["discord", "bot", "chronic", "webhook" "chronicbot"]
+        keywords: ["discord", "bot", "chronic", "webhook" "chronicbot"],
         siteName: "Chronic",
         images: [
             {
