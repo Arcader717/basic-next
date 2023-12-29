@@ -10,6 +10,9 @@ export default function Page() {
   if (p.has("code")) {
     code = p.get("code");
   };
+  function btnLog() {
+    console.log("Vercel log test")
+  }
   return (
     <>
       <h1>This is the callback page</h1>
