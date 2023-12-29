@@ -22,6 +22,7 @@ export default function Page() {
       <p>If it changes click the button below the word you put in</p>
       <br/><br/><br/>
       <h3>{code}</h3>
+      <button onClick={btnLog}>Test Logs</button>
     </>
   );
 };
