@@ -6,6 +6,7 @@ import Link from 'next/link';
 export default function Page() {
   const p = useSearchParams();
   var code = "Nothing :(";
+  console.log("Testing vercel logs");
   if (p.has("code")) {
     code = p.get("code");
   };
