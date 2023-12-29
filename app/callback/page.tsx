@@ -11,7 +11,7 @@ export default function Page() {
     code = p.get("code");
   };
   function btnLog() {
-    console.log("Vercel log test")
+    console.log("Vercel log test");
   }
   return (
     <>
