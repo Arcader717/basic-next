@@ -14,7 +14,7 @@ export default function Page() {
     console.log("Testing Vercel logs");
   };
   return (
-    <>
+    <div>
       <h1>This is the callback page</h1>
       <p>Currently used to get the search params</p>
       <br/><br/><br/>
@@ -23,6 +23,6 @@ export default function Page() {
       <br/><br/><br/>
       <h3>{code}</h3>
       <button onClick={testLogs();}>Test logs</button>
-    </>
+    </div>
   );
 };
