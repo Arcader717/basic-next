@@ -7,9 +7,11 @@ import { cookies } from 'next/headers';
 export default function Page() {
   const p = useSearchParams();
   var code = "Nothing :(";
-  console.log("Testing vercel logs");
   if (p.has("code")) {
     code = p.get("code");
+  };
+  function testLogs() {
+    console.log("Testing Vercel logs");
   };
   return (
     <>
@@ -20,7 +22,7 @@ export default function Page() {
       <p>If it changes click the button below the word you put in</p>
       <br/><br/><br/>
       <h3>{code}</h3>
-      <button onClick={console.log('Testing vercel runtime logs');}>Test logs</button>
+      <button onClick={testLogs();}>Test logs</button>
     </>
   );
 };
