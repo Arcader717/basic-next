@@ -1,4 +1,4 @@
-export const 
+export const runtime = "edge"
 
 export async function GET() {
   
