@@ -3,11 +3,6 @@ import { headers } from 'next/headers';
 
 export default function Page() {
   const heads = headers()
-  const p = useSearchParams();
-  var code = "Nothing :(";
-  if (p.has("code")) {
-    code = p.get("code");
-  };
   function btnLog() {
     console.log("Vercel log test");
   }
