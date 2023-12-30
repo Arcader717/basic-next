@@ -1,7 +1,5 @@
+import { permanentRedirect } from 'next/navigation'
+
 export default function Page() {
-    return (
-        <>
-            <p>Login Page?</p>
-        </>
-    )
+    return permanentRedirect('/callback?extra=re')
 }
