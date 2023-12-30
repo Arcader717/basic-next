@@ -13,6 +13,8 @@ export default function Page() {
       <br/><br/><br/>
       <h3>Consider yourself lucky</h3>
       <p>Just by opening a website, your ip can be displayed, and used to the website's advantage. So be careful about who you trust</p>
+      <br/><br/><br/>
+      <h5>Don't tell the others, this is important</h5>
     </>
   );
 };
