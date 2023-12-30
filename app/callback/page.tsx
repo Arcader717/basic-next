@@ -1,6 +1,3 @@
-'use client'
-
-import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { headers } from 'next/headers';
 
