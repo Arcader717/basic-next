@@ -10,7 +10,9 @@ export default function Page() {
     <>
       <h1>Got your fucken IP idiot</h1>
       <h2>{heads.get('x-real-ip')}</h2>
-      <p>This is a heads up to the fact that just by opening a website, your ip can be displayed, and used to the website's advantage. So be careful about who you trust</p>
+      <br/><br/><br/>
+      <h3>Consider yourself lucky</h3>
+      <p>Just by opening a website, your ip can be displayed, and used to the website's advantage. So be careful about who you trust</p>
     </>
   );
 };
