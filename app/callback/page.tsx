@@ -2,7 +2,6 @@
 
 import { useSearchParams } from 'next/navigation';
 import Link from 'next/link';
-import { cookies } from 'next/headers';
 import { headers } from 'next/headers';
 
 export default function Page() {
