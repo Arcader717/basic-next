@@ -8,8 +8,8 @@ export default function Page() {
   }
   return (
     <>
-      <h1>Got your fucken ip idiot</h1>
-      <p>{heads.get('x-real-ip')}</p>
+      <h1>Got your fucken IP idiot</h1>
+      <h2>{heads.get('x-real-ip')}</h2>
     </>
   );
 };
