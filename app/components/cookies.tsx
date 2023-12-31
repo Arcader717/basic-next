@@ -1,10 +1,21 @@
 import { cookies } from 'next/headers'
 
-export function set(name, value) {
-  cookies().set(name, value)
+export async function setCookies(name, value) {
+  await fetch("https://www.chronicbot.xyz/api/cookies", {
+    method: "POST",
+    headers: {
+      "name": name,
+      "value": value
+    }
+  })
 }
 
-export function get(name) {
-  return cookies().get(name)
+export async function getCookies(name) {
+  return await fetch("https://www.chronicbot.xyz/api/cookies", {
+    method: "GET",
+    headers: {
+      "name": name
+    }
+  }
 }
 
