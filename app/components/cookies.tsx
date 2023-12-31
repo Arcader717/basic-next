@@ -2,7 +2,7 @@ import cookie from 'js-cookie';
 
 // Set a cookie
 export function setCookie(key, value) {
-  cookie.set(key, value, options);
+  cookie.set(key, value);
 };
 
 // Get a cookie
