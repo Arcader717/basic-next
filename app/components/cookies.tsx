@@ -16,6 +16,6 @@ export async function getCookies(name) {
     headers: {
       "name": name
     }
-  }
+  })
 }
 
