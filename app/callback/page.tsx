@@ -6,9 +6,9 @@ import { setCookie, getCookie } from '../components/cookies';
 
 export default async function Page() {
   const p = useSearchParams()
-  const code = params.get('code')
+  const code = p.get('code')
   setCookies('code', code)
-  const newCode = cook.get('code')
+  const newCode = getCookie('code')
   return (
     <>
       <p>code is {getCookies('code')}</p>
