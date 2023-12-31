@@ -7,7 +7,8 @@ export async function GET(r: Request) {
   const c = cookies()
   const h = headers()
   const name = h.get('name')
-  return c.get(name)
+  const cookie = c.get(name)
+  return new Response(cookie)
 }
 
 export async function POST(r: Request) {
