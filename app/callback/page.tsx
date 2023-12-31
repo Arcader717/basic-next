@@ -11,7 +11,7 @@ export default async function Page() {
   const newCode = getCookie('code')
   return (
     <>
-      <p>code is {getCookies('code')}</p>
+      <p>code is {newCode}</p>
     </>
   );
 };
