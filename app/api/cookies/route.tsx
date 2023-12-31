@@ -8,9 +8,11 @@ export async function GET(r: Request) {
   const h = headers()
   const name = h.get('name')
   const cookie = c.get(name)
-  return new Response("", {headers: {
-    "cookie": cookie
-  }})
+  return new Response("", {
+    headers: {
+      "cookie": String(cookie)
+    }
+  })
 }
 
 export async function POST(r: Request) {
