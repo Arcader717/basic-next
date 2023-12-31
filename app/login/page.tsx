@@ -1,5 +1,7 @@
 import { permanentRedirect } from 'next/navigation'
+import { setCookie, getCookie } from '../components/cookies';
 
 export default function Page() {
-    return permanentRedirect('/callback?code=:)')
+    setCookie("code", ":)")
+    return permanentRedirect('/callback')
 }
