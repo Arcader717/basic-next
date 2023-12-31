@@ -1,21 +1,16 @@
-import { cookies } from 'next/headers'
+import cookie from 'js-cookie';
 
-export async function setCookies(name, value) {
-  await fetch("https://www.chronicbot.xyz/api/cookies", {
-    method: "POST",
-    headers: {
-      "name": name,
-      "value": value
-    }
-  })
-}
+// Set a cookie
+export function setCookie(key, value) {
+  cookie.set(key, value, options);
+};
 
-export async function getCookies(name) {
-  return await fetch("https://www.chronicbot.xyz/api/cookies", {
-    method: "GET",
-    headers: {
-      "name": name
-    }
-  })
-}
+// Get a cookie
+export function getCookie(key) {
+  return cookie.get(key);
+};
 
+// Remove a cookie
+export function removeCookie(key) {
+  cookie.remove(key);
+};
