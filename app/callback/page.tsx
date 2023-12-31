@@ -7,7 +7,7 @@ import { setCookie, getCookie } from '../components/cookies';
 export default async function Page() {
   const p = useSearchParams()
   const code = p.get('code')
-  setCookies('code', code)
+  setCookie('code', code)
   const newCode = getCookie('code')
   return (
     <>
