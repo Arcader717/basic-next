@@ -11,7 +11,8 @@
     "@types/node": "^20.10.5",
     "@vercel/og": "^0.6.1",
     "@vercel/analytics": "^1.1.1",
-    "@vercel/speed-insights": "^0.0.5"
+    "@vercel/speed-insights": "^0.0.5",
+    "js-cookie": "3.0.5"
   },
   "scripts": {
     "dev": "next dev",
