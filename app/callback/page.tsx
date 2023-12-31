@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
-import { setCookies, getCookies } from '../components/cookies';
+import { setCookie, getCookie } from '../components/cookies';
 
 export default async function Page() {
   const p = useSearchParams()
