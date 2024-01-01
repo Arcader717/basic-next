@@ -6,11 +6,10 @@ import { useSearchParams } from 'next/navigation'
 
 export default async function Page() {
   const searchParams = useSearchParams()
+  let code = "Nothing :("
   if (searchParams.has("code")) {
-    const code = searchParams.get("code")
-  } else {
-    const code = "Nothing :("
-  }
+    let code = searchParams.get("code")
+  };
   return (
     <>
       <p>Hi {code}</p>
