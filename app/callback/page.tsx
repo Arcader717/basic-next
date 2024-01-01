@@ -5,6 +5,7 @@ import { useSearchParams } from 'next/navigation';
 // import Link from 'next/link';
 
 export default async function Page() {
+  let p = useSearchParams()
   return (
     <>
       <p>Hi</p>
