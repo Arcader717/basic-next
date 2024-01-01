@@ -15,7 +15,6 @@ export default async function Page() {
       <Link href="/callback">
         <a>Callback</a>
       </Link>
-      <
     </>
   )
 };
