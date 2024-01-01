@@ -5,10 +5,10 @@ import { useSearchParams } from 'next/navigation'
 // import Link from 'next/link';
 
 export default async function Page() {
-  const searchParams = useSearchParams()
+  let params = new URLSearchParams(document.location.search);
   let code = "Nothing :("
-  if (searchParams.has("code")) {
-    let code = searchParams.get("code")
+  if (params.has("code")) {
+    let code = params.get("code")
   };
   return (
     <>
