@@ -6,10 +6,9 @@ import Link from 'next/link';
 
 export default async function Page() {
   const p = useSearchParams()
-  const code = p.get('code')
   return (
     <>
-      <p>your code is {code}</p>
+      <p>Hi</p>
     </>
   )
 };
