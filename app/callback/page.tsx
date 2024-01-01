@@ -1,15 +1,14 @@
 'use client'
 
-import { useRouter } from 'next/navigation'
+import { useSearchParams } from 'next/navigation'
 // import { setCookie, getCookie } from '../components/cookies';
 // import Link from 'next/link';
 
 export default async function Page() {
-  let router = useRouter();
-  const { keyword } = router.query;
+  const searchParams = useSearchParams();
   return (
     <>
-      <p>Hi {keyword}</p>
+      <p>Hi {searchParams}</p>
     </>
   )
 };
